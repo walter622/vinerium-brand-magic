@@ -213,9 +213,6 @@ function Index() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/20" />
           <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 sm:px-8">
             <div className="max-w-2xl text-white">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[color:var(--color-brand-rose-soft)]">
-                Curadoria · Importação oficial · Atendimento humano
-              </p>
               <h1 className="mt-5 font-display text-5xl leading-[1.02] sm:text-6xl lg:text-7xl">
                 Adquira rótulos importados exclusivos a preço de distribuidor.
               </h1>
@@ -260,7 +257,7 @@ function Index() {
       <section id="perfis" className="bg-background py-20 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-primary">Perfis de compra</p>
+            
             <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
               Escolha o caminho que combina com você
             </h2>
@@ -281,7 +278,7 @@ function Index() {
                   />
                 </div>
                 <div className="flex flex-1 flex-col gap-5 p-8">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-primary">{mode.eyebrow}</p>
+                  
                   <h3 className="font-display text-2xl leading-tight text-foreground sm:text-3xl">{mode.title}</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground sm:text-base">
                     {mode.points.map((p) => (
@@ -313,9 +310,6 @@ function Index() {
             <img src={handsAsset.url} alt="Brinde com vinho" className="h-full w-full object-cover" />
           </div>
           <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[color:var(--color-brand-rose-soft)]">
-              A verdade que o varejo esconde
-            </p>
             <h2 className="mt-3 font-display text-4xl leading-tight sm:text-5xl">
               Você está pagando caro por menos história.
             </h2>
@@ -338,7 +332,7 @@ function Index() {
             <img src={cellarAsset.url} alt="Bastidores da curadoria Vinerium" className="h-full w-full object-cover" />
           </div>
           <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-primary">Bastidores da curadoria</p>
+            
             <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
               Garimpamos propriedades familiares na Europa para chegar até a sua taça.
             </h2>
@@ -367,7 +361,7 @@ function Index() {
       <section className="bg-secondary py-20 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-primary">Quem já vive a Vinerium</p>
+            
             <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
               Curadoria reconhecida por quem entende de mesa e de cardápio
             </h2>
@@ -392,7 +386,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
             <div className="max-w-2xl">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-primary">Como funciona</p>
+              
               <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
                 Cinco passos do primeiro contato à sua adega
               </h2>
@@ -422,7 +416,7 @@ function Index() {
       <section className="bg-card py-20 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-primary">Vinerium vs. varejo</p>
+            
             <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
               A diferença está em cada etapa
             </h2>
@@ -484,7 +478,7 @@ function Index() {
       <section id="faq" className="bg-background py-20 sm:py-24">
         <div className="mx-auto max-w-4xl px-5 sm:px-8">
           <div className="text-center">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-primary">Perguntas frequentes</p>
+            
             <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
               Tudo o que você precisa saber antes de falar com a gente
             </h2>
