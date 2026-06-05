@@ -319,8 +319,8 @@ function Index() {
       {/* Curadoria / bastidores */}
       <section id="curadoria" className="bg-background py-20 sm:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-2">
-          <div className="relative aspect-[5/6] w-full overflow-hidden">
-            <img src={cellarAsset.url} alt="Bastidores da curadoria Vinerium" className="h-full w-full object-cover" />
+          <div className="relative w-full">
+            <img src={cellarAsset.url} alt="Bastidores da curadoria Vinerium" className="h-auto w-full object-contain" />
           </div>
           <div>
             
