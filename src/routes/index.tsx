@@ -261,11 +261,11 @@ function Index() {
           <div className="mt-14 grid gap-8 lg:grid-cols-2">
             {purchaseModes.map((mode) => (
               <article key={mode.title} className="group flex flex-col overflow-hidden border border-border bg-card">
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-secondary">
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-secondary p-6">
                   <img
                     src={mode.image}
                     alt={mode.title}
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <div className="flex flex-1 flex-col gap-5 p-8">
@@ -297,8 +297,8 @@ function Index() {
       {/* Verdade do varejo - faixa vinho */}
       <section className="bg-primary text-primary-foreground">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[1fr_1.1fr] lg:py-24">
-          <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden">
-            <img src={handsAsset.url} alt="Brinde com vinho" className="h-full w-full object-cover" />
+          <div className="relative w-full max-w-md">
+            <img src={handsAsset.url} alt="Brinde com vinho" className="h-auto w-full object-contain" />
           </div>
           <div>
             <h2 className="mt-3 font-display text-4xl leading-tight sm:text-5xl">
@@ -319,8 +319,8 @@ function Index() {
       {/* Curadoria / bastidores */}
       <section id="curadoria" className="bg-background py-20 sm:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-2">
-          <div className="relative aspect-[5/6] w-full overflow-hidden">
-            <img src={cellarAsset.url} alt="Bastidores da curadoria Vinerium" className="h-full w-full object-cover" />
+          <div className="relative w-full">
+            <img src={cellarAsset.url} alt="Bastidores da curadoria Vinerium" className="h-auto w-full object-contain" />
           </div>
           <div>
             
