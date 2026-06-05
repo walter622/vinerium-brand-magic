@@ -173,15 +173,6 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <main className="bg-background text-foreground">
-      {/* Top bar */}
-      <div className="bg-brand-night text-[color:var(--color-brand-mist)]">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-1 px-5 py-2 text-[11px] uppercase tracking-[0.22em] sm:flex-row sm:px-8">
-          <span>Importação oficial · Entrega para todo o Brasil</span>
-          <a href={weeklyLeadLink} target="_blank" rel="noreferrer" className="hover:text-white">
-            WhatsApp +55 11 97847-6621
-          </a>
-        </div>
-      </div>
 
       {/* Header */}
       <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur">
