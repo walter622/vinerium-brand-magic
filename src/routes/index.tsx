@@ -261,11 +261,11 @@ function Index() {
           <div className="mt-14 grid gap-8 lg:grid-cols-2">
             {purchaseModes.map((mode) => (
               <article key={mode.title} className="group flex flex-col overflow-hidden border border-border bg-card">
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-secondary">
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-secondary p-6">
                   <img
                     src={mode.image}
                     alt={mode.title}
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <div className="flex flex-1 flex-col gap-5 p-8">
