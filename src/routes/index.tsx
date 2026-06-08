@@ -251,32 +251,32 @@ function Index() {
       </section>
 
       {/* Perfis (category cards) */}
-      <section id="perfis" className="bg-background py-20 sm:py-24">
+      <section id="perfis" className="bg-background py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               Escolha o caminho que combina com você
             </h2>
-            <p className="mt-4 text-base text-muted-foreground sm:text-lg">
+            <p className="mt-4 text-sm text-muted-foreground sm:text-lg">
               O atendimento é diferenciado por perfil: combos para a sua casa ou condições corporativas para o seu
               estabelecimento.
             </p>
           </div>
 
-          <div className="mt-14 grid gap-8 lg:grid-cols-2">
+          <div className="mt-10 grid gap-6 sm:mt-14 sm:gap-8 lg:grid-cols-2">
             {purchaseModes.map((mode) => (
               <article key={mode.title} className="group flex flex-col overflow-hidden border border-border bg-card">
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-secondary p-6">
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-secondary p-4 sm:p-6">
                   <img
                     src={mode.image}
                     alt={mode.title}
                     className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <div className="flex flex-1 flex-col gap-5 p-8">
+                <div className="flex flex-1 flex-col gap-5 p-6 sm:p-8">
                   
-                  <h3 className="font-display text-2xl leading-tight text-foreground sm:text-3xl">{mode.title}</h3>
+                  <h3 className="font-display text-xl leading-tight text-foreground sm:text-3xl">{mode.title}</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground sm:text-base">
                     {mode.points.map((p) => (
                       <li key={p} className="flex gap-3">
@@ -289,7 +289,7 @@ function Index() {
                     href={mode.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="mt-auto inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-6 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+                    className="mt-auto inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-4 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:px-6 sm:text-xs sm:tracking-[0.22em]"
                   >
                     {mode.cta}
                   </a>
