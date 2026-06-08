@@ -464,7 +464,7 @@ function Index() {
             href={weeklyLeadLink}
             target="_blank"
             rel="noreferrer"
-            className="mt-10 inline-flex min-h-14 items-center justify-center rounded-none bg-primary px-12 text-sm font-semibold uppercase tracking-[0.24em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+            className="mt-10 inline-flex min-h-14 w-full items-center justify-center rounded-none bg-primary px-6 text-xs font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:w-auto sm:px-12 sm:text-sm sm:tracking-[0.24em]"
           >
             Falar no WhatsApp agora
           </a>
