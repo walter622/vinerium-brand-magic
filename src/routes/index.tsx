@@ -199,7 +199,7 @@ function Index() {
 
       {/* Hero banner */}
       <section id="top" className="relative isolate overflow-hidden">
-        <div className="relative min-h-[520px] w-full h-[70svh] sm:h-[78svh] lg:h-[88svh]">
+        <div className="relative min-h-[460px] w-full h-[78svh] lg:h-[88svh]">
           <img
             src={heroAsset.url}
             alt="Adega Vinerium"
@@ -207,28 +207,28 @@ function Index() {
             loading="eager"
             decoding="async"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/15" />
-          <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 sm:px-8">
+          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/65 to-black/40 sm:bg-gradient-to-r sm:from-black/80 sm:via-black/55 sm:to-black/15" />
+          <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 py-12 sm:px-8">
             <div className="max-w-2xl text-white">
-              <h1 className="mt-5 font-display text-5xl leading-[1.02] sm:text-6xl lg:text-7xl">
+              <h1 className="font-display text-[2.25rem] leading-[1.05] sm:text-6xl lg:text-7xl">
                 Adquira rótulos importados exclusivos a preço de distribuidor.
               </h1>
-              <p className="mt-6 max-w-xl text-base leading-7 text-white/85 sm:text-lg">
+              <p className="mt-5 max-w-xl text-sm leading-6 text-white/85 sm:mt-6 sm:text-lg sm:leading-7">
                 Seja para abastecer a sua reserva particular em casa ou para elevar a margem do seu estabelecimento.
                 Compre direto da importação oficial da Vinerium e pule os intermediários do varejo tradicional.
               </p>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row">
                 <a
                   href={weeklyLeadLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex min-h-12 items-center justify-center rounded-none bg-primary px-8 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
                 >
                   Falar no WhatsApp
                 </a>
                 <a
                   href="#perfis"
-                  className="inline-flex min-h-12 items-center justify-center rounded-none border border-white/70 px-8 text-xs font-semibold uppercase tracking-[0.22em] text-white transition-colors hover:bg-white hover:text-foreground"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-none border border-white/70 px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-white hover:text-foreground sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
                 >
                   Ver perfis de compra
                 </a>
@@ -251,32 +251,32 @@ function Index() {
       </section>
 
       {/* Perfis (category cards) */}
-      <section id="perfis" className="bg-background py-20 sm:py-24">
+      <section id="perfis" className="bg-background py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               Escolha o caminho que combina com você
             </h2>
-            <p className="mt-4 text-base text-muted-foreground sm:text-lg">
+            <p className="mt-4 text-sm text-muted-foreground sm:text-lg">
               O atendimento é diferenciado por perfil: combos para a sua casa ou condições corporativas para o seu
               estabelecimento.
             </p>
           </div>
 
-          <div className="mt-14 grid gap-8 lg:grid-cols-2">
+          <div className="mt-10 grid gap-6 sm:mt-14 sm:gap-8 lg:grid-cols-2">
             {purchaseModes.map((mode) => (
               <article key={mode.title} className="group flex flex-col overflow-hidden border border-border bg-card">
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-secondary p-6">
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-secondary p-4 sm:p-6">
                   <img
                     src={mode.image}
                     alt={mode.title}
                     className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <div className="flex flex-1 flex-col gap-5 p-8">
+                <div className="flex flex-1 flex-col gap-5 p-6 sm:p-8">
                   
-                  <h3 className="font-display text-2xl leading-tight text-foreground sm:text-3xl">{mode.title}</h3>
+                  <h3 className="font-display text-xl leading-tight text-foreground sm:text-3xl">{mode.title}</h3>
                   <ul className="space-y-2 text-sm text-muted-foreground sm:text-base">
                     {mode.points.map((p) => (
                       <li key={p} className="flex gap-3">
@@ -289,7 +289,7 @@ function Index() {
                     href={mode.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="mt-auto inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-6 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+                    className="mt-auto inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-4 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:px-6 sm:text-xs sm:tracking-[0.22em]"
                   >
                     {mode.cta}
                   </a>
@@ -302,12 +302,12 @@ function Index() {
 
       {/* Verdade do varejo - faixa vinho */}
       <section className="bg-primary text-primary-foreground">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[1fr_1.1fr] lg:py-24">
+        <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-14 sm:gap-12 sm:px-8 sm:py-20 lg:grid-cols-[1fr_1.1fr] lg:py-24">
           <div className="relative w-full max-w-md">
             <img src={handsAsset.url} alt="Brinde com vinho" className="h-auto w-full object-contain" />
           </div>
           <div>
-            <h2 className="mt-3 font-display text-4xl leading-tight sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight sm:text-5xl">
               Você está pagando caro por menos história.
             </h2>
             <div className="mt-8 space-y-6">
@@ -323,14 +323,14 @@ function Index() {
       </section>
 
       {/* Curadoria / bastidores */}
-      <section id="curadoria" className="bg-background py-20 sm:py-24">
+      <section id="curadoria" className="bg-background py-14 sm:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-2">
           <div className="relative w-full">
             <img src={cellarAsset.url} alt="Bastidores da curadoria Vinerium" className="h-auto w-full object-contain" />
           </div>
           <div>
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               Garimpamos propriedades familiares na Europa para chegar até a sua taça.
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -346,7 +346,7 @@ function Index() {
               href={weeklyLeadLink}
               target="_blank"
               rel="noreferrer"
-              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-none border border-primary px-8 text-xs font-semibold uppercase tracking-[0.22em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+              className="mt-8 inline-flex min-h-12 w-full items-center justify-center rounded-none border border-primary px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
             >
               Conhecer a curadoria da semana
             </a>
@@ -355,11 +355,11 @@ function Index() {
       </section>
 
       {/* Prova social */}
-      <section className="bg-secondary py-20 sm:py-24">
+      <section className="bg-secondary py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               Curadoria reconhecida por quem entende de mesa e de cardápio
             </h2>
           </div>
@@ -379,12 +379,12 @@ function Index() {
       </section>
 
       {/* Como funciona */}
-      <section id="como-funciona" className="bg-background py-20 sm:py-24">
+      <section id="como-funciona" className="bg-background py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
             <div className="max-w-2xl">
               
-              <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+              <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
                 Cinco passos do primeiro contato à sua adega
               </h2>
             </div>
@@ -392,7 +392,7 @@ function Index() {
               href={weeklyLeadLink}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-12 items-center justify-center rounded-none bg-primary px-8 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+              className="inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
             >
               Começar pelo WhatsApp
             </a>
@@ -410,11 +410,11 @@ function Index() {
       </section>
 
       {/* Comparação */}
-      <section className="bg-card py-20 sm:py-24">
+      <section className="bg-card py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               A diferença está em cada etapa
             </h2>
           </div>
@@ -453,7 +453,7 @@ function Index() {
         />
         <div className="relative mx-auto flex max-w-5xl flex-col items-center px-5 py-24 text-center sm:px-8">
           <img src={symbolAsset.url} alt="" aria-hidden className="h-12 w-auto opacity-90" />
-          <h2 className="mt-6 font-display text-4xl leading-tight sm:text-6xl">
+          <h2 className="mt-6 font-display text-3xl leading-tight sm:text-6xl">
             Adquira hoje a preço de distribuidor.
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg">
@@ -464,7 +464,7 @@ function Index() {
             href={weeklyLeadLink}
             target="_blank"
             rel="noreferrer"
-            className="mt-10 inline-flex min-h-14 items-center justify-center rounded-none bg-primary px-12 text-sm font-semibold uppercase tracking-[0.24em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+            className="mt-10 inline-flex min-h-14 w-full items-center justify-center rounded-none bg-primary px-6 text-xs font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:w-auto sm:px-12 sm:text-sm sm:tracking-[0.24em]"
           >
             Falar no WhatsApp agora
           </a>
@@ -472,11 +472,11 @@ function Index() {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="bg-background py-20 sm:py-24">
+      <section id="faq" className="bg-background py-14 sm:py-24">
         <div className="mx-auto max-w-4xl px-5 sm:px-8">
           <div className="text-center">
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               Tudo o que você precisa saber antes de falar com a gente
             </h2>
           </div>
@@ -529,7 +529,7 @@ function Index() {
           </div>
         </div>
         <div className="border-t border-white/10">
-          <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-3 px-5 py-6 text-xs text-white/60 sm:flex-row sm:items-center sm:px-8">
+          <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-3 px-5 py-6 pb-24 text-xs text-white/60 sm:flex-row sm:items-center sm:px-8 sm:pb-6">
             <p>Vinerium © 2026 — Distribuição e Curadoria de Rótulos Finos</p>
             <p>Venda proibida para menores de 18 anos. Consuma com responsabilidade.</p>
           </div>
