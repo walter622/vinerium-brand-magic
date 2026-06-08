@@ -346,7 +346,7 @@ function Index() {
               href={weeklyLeadLink}
               target="_blank"
               rel="noreferrer"
-              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-none border border-primary px-8 text-xs font-semibold uppercase tracking-[0.22em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+              className="mt-8 inline-flex min-h-12 w-full items-center justify-center rounded-none border border-primary px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
             >
               Conhecer a curadoria da semana
             </a>
