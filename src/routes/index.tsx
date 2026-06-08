@@ -529,7 +529,7 @@ function Index() {
           </div>
         </div>
         <div className="border-t border-white/10">
-          <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-3 px-5 py-6 text-xs text-white/60 sm:flex-row sm:items-center sm:px-8">
+          <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-3 px-5 py-6 pb-24 text-xs text-white/60 sm:flex-row sm:items-center sm:px-8 sm:pb-6">
             <p>Vinerium © 2026 — Distribuição e Curadoria de Rótulos Finos</p>
             <p>Venda proibida para menores de 18 anos. Consuma com responsabilidade.</p>
           </div>
