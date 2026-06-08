@@ -302,7 +302,7 @@ function Index() {
 
       {/* Verdade do varejo - faixa vinho */}
       <section className="bg-primary text-primary-foreground">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[1fr_1.1fr] lg:py-24">
+        <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-14 sm:gap-12 sm:px-8 sm:py-20 lg:grid-cols-[1fr_1.1fr] lg:py-24">
           <div className="relative w-full max-w-md">
             <img src={handsAsset.url} alt="Brinde com vinho" className="h-auto w-full object-contain" />
           </div>
