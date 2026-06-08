@@ -323,7 +323,7 @@ function Index() {
       </section>
 
       {/* Curadoria / bastidores */}
-      <section id="curadoria" className="bg-background py-20 sm:py-24">
+      <section id="curadoria" className="bg-background py-14 sm:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-2">
           <div className="relative w-full">
             <img src={cellarAsset.url} alt="Bastidores da curadoria Vinerium" className="h-auto w-full object-contain" />
@@ -355,7 +355,7 @@ function Index() {
       </section>
 
       {/* Prova social */}
-      <section className="bg-secondary py-20 sm:py-24">
+      <section className="bg-secondary py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
             
@@ -379,7 +379,7 @@ function Index() {
       </section>
 
       {/* Como funciona */}
-      <section id="como-funciona" className="bg-background py-20 sm:py-24">
+      <section id="como-funciona" className="bg-background py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
             <div className="max-w-2xl">
@@ -410,7 +410,7 @@ function Index() {
       </section>
 
       {/* Comparação */}
-      <section className="bg-card py-20 sm:py-24">
+      <section className="bg-card py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
             
@@ -472,7 +472,7 @@ function Index() {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="bg-background py-20 sm:py-24">
+      <section id="faq" className="bg-background py-14 sm:py-24">
         <div className="mx-auto max-w-4xl px-5 sm:px-8">
           <div className="text-center">
             
