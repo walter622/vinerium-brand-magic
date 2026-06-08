@@ -199,7 +199,7 @@ function Index() {
 
       {/* Hero banner */}
       <section id="top" className="relative isolate overflow-hidden">
-        <div className="relative min-h-[520px] w-full h-[70svh] sm:h-[78svh] lg:h-[88svh]">
+        <div className="relative min-h-[460px] w-full h-[78svh] lg:h-[88svh]">
           <img
             src={heroAsset.url}
             alt="Adega Vinerium"
@@ -207,28 +207,28 @@ function Index() {
             loading="eager"
             decoding="async"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/15" />
-          <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 sm:px-8">
+          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/65 to-black/40 sm:bg-gradient-to-r sm:from-black/80 sm:via-black/55 sm:to-black/15" />
+          <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 py-12 sm:px-8">
             <div className="max-w-2xl text-white">
-              <h1 className="mt-5 font-display text-5xl leading-[1.02] sm:text-6xl lg:text-7xl">
+              <h1 className="font-display text-[2.25rem] leading-[1.05] sm:text-6xl lg:text-7xl">
                 Adquira rótulos importados exclusivos a preço de distribuidor.
               </h1>
-              <p className="mt-6 max-w-xl text-base leading-7 text-white/85 sm:text-lg">
+              <p className="mt-5 max-w-xl text-sm leading-6 text-white/85 sm:mt-6 sm:text-lg sm:leading-7">
                 Seja para abastecer a sua reserva particular em casa ou para elevar a margem do seu estabelecimento.
                 Compre direto da importação oficial da Vinerium e pule os intermediários do varejo tradicional.
               </p>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row">
                 <a
                   href={weeklyLeadLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex min-h-12 items-center justify-center rounded-none bg-primary px-8 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
                 >
                   Falar no WhatsApp
                 </a>
                 <a
                   href="#perfis"
-                  className="inline-flex min-h-12 items-center justify-center rounded-none border border-white/70 px-8 text-xs font-semibold uppercase tracking-[0.22em] text-white transition-colors hover:bg-white hover:text-foreground"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-none border border-white/70 px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-white hover:text-foreground sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
                 >
                   Ver perfis de compra
                 </a>
