@@ -307,7 +307,7 @@ function Index() {
             <img src={handsAsset.url} alt="Brinde com vinho" className="h-auto w-full object-contain" />
           </div>
           <div>
-            <h2 className="mt-3 font-display text-4xl leading-tight sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight sm:text-5xl">
               Você está pagando caro por menos história.
             </h2>
             <div className="mt-8 space-y-6">
@@ -330,7 +330,7 @@ function Index() {
           </div>
           <div>
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               Garimpamos propriedades familiares na Europa para chegar até a sua taça.
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -359,7 +359,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               Curadoria reconhecida por quem entende de mesa e de cardápio
             </h2>
           </div>
@@ -384,7 +384,7 @@ function Index() {
           <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
             <div className="max-w-2xl">
               
-              <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+              <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
                 Cinco passos do primeiro contato à sua adega
               </h2>
             </div>
@@ -414,7 +414,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               A diferença está em cada etapa
             </h2>
           </div>
@@ -453,7 +453,7 @@ function Index() {
         />
         <div className="relative mx-auto flex max-w-5xl flex-col items-center px-5 py-24 text-center sm:px-8">
           <img src={symbolAsset.url} alt="" aria-hidden className="h-12 w-auto opacity-90" />
-          <h2 className="mt-6 font-display text-4xl leading-tight sm:text-6xl">
+          <h2 className="mt-6 font-display text-3xl leading-tight sm:text-6xl">
             Adquira hoje a preço de distribuidor.
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg">
@@ -476,7 +476,7 @@ function Index() {
         <div className="mx-auto max-w-4xl px-5 sm:px-8">
           <div className="text-center">
             
-            <h2 className="mt-3 font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
               Tudo o que você precisa saber antes de falar com a gente
             </h2>
           </div>
