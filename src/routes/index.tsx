@@ -392,7 +392,7 @@ function Index() {
               href={weeklyLeadLink}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-12 items-center justify-center rounded-none bg-primary px-8 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+              className="inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
             >
               Começar pelo WhatsApp
             </a>
