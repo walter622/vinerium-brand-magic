@@ -199,9 +199,15 @@ function Index() {
 
       {/* Hero banner */}
       <section id="top" className="relative isolate overflow-hidden">
-        <div className="relative h-[78vh] min-h-[560px] w-full">
-          <img src={heroAsset.url} alt="Adega Vinerium" className="absolute inset-0 h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/20" />
+        <div className="relative min-h-[520px] w-full h-[70svh] sm:h-[78svh] lg:h-[88svh]">
+          <img
+            src={heroAsset.url}
+            alt="Adega Vinerium"
+            className="absolute inset-0 h-full w-full object-cover object-[70%_center] sm:object-center"
+            loading="eager"
+            decoding="async"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/15" />
           <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 sm:px-8">
             <div className="max-w-2xl text-white">
               <h1 className="mt-5 font-display text-5xl leading-[1.02] sm:text-6xl lg:text-7xl">
