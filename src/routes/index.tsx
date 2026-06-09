@@ -308,7 +308,7 @@ function Index() {
           </div>
           <div>
             <h2 className="mt-3 font-display text-3xl leading-tight sm:text-5xl">
-              Você está pagando caro por menos história.
+              Você está pagando caro por menos história
             </h2>
             <div className="mt-8 space-y-6">
               {retailTruths.map((t) => (
