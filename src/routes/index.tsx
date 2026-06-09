@@ -542,7 +542,7 @@ function Index() {
         target="_blank"
         rel="noreferrer"
         aria-label="Falar no WhatsApp"
-        className="fixed bottom-5 right-5 z-50 inline-flex min-h-14 items-center justify-center rounded-full bg-primary px-6 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground shadow-2xl shadow-black/30 transition-transform hover:-translate-y-0.5 sm:hidden"
+        className="fixed bottom-[calc(1.5rem+env(safe-area-inset-bottom))] right-5 z-50 inline-flex min-h-14 items-center justify-center rounded-full bg-primary px-6 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground shadow-2xl shadow-black/30 transition-transform hover:-translate-y-0.5 sm:hidden"
       >
         WhatsApp
       </a>
