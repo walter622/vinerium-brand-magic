@@ -87,6 +87,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Vinerium" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Vinerium" },
+      { name: "twitter:title", content: "Vinerium" },
+      { name: "description", content: "Vinerium Sales Page Master creates branded sales pages to capture leads for WhatsApp." },
+      { property: "og:description", content: "Vinerium Sales Page Master creates branded sales pages to capture leads for WhatsApp." },
+      { name: "twitter:description", content: "Vinerium Sales Page Master creates branded sales pages to capture leads for WhatsApp." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1963c7ba-3625-4cb5-a14e-da372e2865f1/id-preview-202f794a--af218c4d-78ab-49e8-9004-6a1a812ac846.lovable.app-1781014148682.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1963c7ba-3625-4cb5-a14e-da372e2865f1/id-preview-202f794a--af218c4d-78ab-49e8-9004-6a1a812ac846.lovable.app-1781014148682.png" },
     ],
     links: [
       {
