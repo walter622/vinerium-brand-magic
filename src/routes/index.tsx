@@ -240,6 +240,39 @@ function Index() {
         </div>
       </section>
 
+      {/* VSL — Vídeo de Carta de Vendas */}
+      <section className="bg-[color:var(--color-brand-night)] py-14 sm:py-24">
+        <div className="mx-auto max-w-5xl px-5 sm:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[color:var(--color-brand-rose-soft)]">
+              Assista antes de decidir
+            </p>
+            <h2 className="mt-3 font-display text-3xl leading-tight text-white sm:text-5xl">
+              Descubra por que a Vinerium é diferente de tudo que você já viu
+            </h2>
+          </div>
+
+          <div className="mt-10 sm:mt-14">
+            <div className="relative aspect-video w-full overflow-hidden rounded-lg border border-white/10 bg-black/40">
+              {/* Placeholder para o VSL */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 text-white/90">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-white/30 bg-white/10 backdrop-blur-sm sm:h-20 sm:w-20">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 sm:h-9 sm:w-9">
+                    <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <p className="text-sm font-medium tracking-wide text-white/70 sm:text-base">
+                  Vídeo em breve
+                </p>
+              </div>
+            </div>
+            <p className="mt-4 text-center text-sm text-white/60 sm:text-base">
+              Em poucos minutos, entenda como funciona a curadoria, os preços de distribuidor e a entrega segura até a sua porta.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits strip */}
       <section className="border-b border-border bg-card">
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-5 py-10 sm:px-8 md:grid-cols-4">
