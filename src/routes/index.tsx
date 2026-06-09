@@ -211,7 +211,7 @@ function Index() {
           <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 py-12 sm:px-8">
             <div className="max-w-2xl text-white">
               <h1 className="font-display text-[2.25rem] leading-[1.05] sm:text-6xl lg:text-7xl">
-                Adquira rótulos importados exclusivos a preço de distribuidor.
+                Adquira rótulos importados exclusivos a preço de distribuidor
               </h1>
               <p className="mt-5 max-w-xl text-sm leading-6 text-white/85 sm:mt-6 sm:text-lg sm:leading-7">
                 Seja para abastecer a sua reserva particular em casa ou para elevar a margem do seu estabelecimento.
