@@ -52,7 +52,7 @@ const purchaseModes = [
       "Procedência oficial, nota fiscal e logística nacional protegida.",
     ],
     href: businessLeadLink,
-    cta: "Quero atendimento B2B",
+    cta: "QUERO ATENDIMENTO ",
   },
 ];
 
