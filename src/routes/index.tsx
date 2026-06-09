@@ -331,7 +331,7 @@ function Index() {
           <div>
             
             <h2 className="mt-3 font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Garimpamos propriedades familiares na Europa para chegar até a sua taça.
+              Garimpamos propriedades familiares na Europa para chegar até a sua taça
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
               A Vinerium nasceu para conectar o paladar brasileiro às pequenas produções europeias que normalmente não
