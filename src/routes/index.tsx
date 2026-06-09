@@ -454,7 +454,7 @@ function Index() {
         <div className="relative mx-auto flex max-w-5xl flex-col items-center px-5 py-24 text-center sm:px-8">
           <img src={symbolAsset.url} alt="" aria-hidden className="h-12 w-auto opacity-90" />
           <h2 className="mt-6 font-display text-3xl leading-tight sm:text-6xl">
-            Adquira hoje a preço de distribuidor.
+            Adquira hoje a preço de distribuidor
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg">
             Fale com nossa equipe pelo WhatsApp e conheça os combos disponíveis ou as condições para o seu
