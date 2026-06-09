@@ -7,6 +7,8 @@ import cellarAsset from "../assets/vinerium-cellar.jpg.asset.json";
 import duoAsset from "../assets/vinerium-bottle-duo.png.asset.json";
 import handsAsset from "../assets/vinerium-hands.png.asset.json";
 import terraceAsset from "../assets/vinerium-terrace.png.asset.json";
+import comboHomeImg from "../assets/vinerium-bottle-combo-home.png";
+import comboBusinessImg from "../assets/vinerium-bottle-combo-business.png";
 
 const whatsappNumber = "5511978476621";
 const createWhatsappLink = (message: string) =>
@@ -33,7 +35,7 @@ const purchaseModes = [
   {
     eyebrow: "Para consumo em casa",
     title: "Combos inteligentes para elevar a mesa",
-    image: duoAsset.url,
+    image: comboHomeImg,
     points: [
       "Seleções pensadas para jantares e reservas particulares.",
       "Condições de lote em combos de 2, 4 e 6 garrafas.",
@@ -45,7 +47,7 @@ const purchaseModes = [
   {
     eyebrow: "Para estabelecimentos",
     title: "Portfólio autoral para restaurantes, adegas, empórios e hotéis",
-    image: terraceAsset.url,
+    image: comboBusinessImg,
     points: [
       "Atendimento comercial dedicado para pedidos recorrentes e em volume.",
       "Rótulos de tiragem limitada fora do circuito das grandes redes.",
