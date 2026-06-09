@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import logoAsset from "../assets/vinerium.png.asset.json";
 import symbolAsset from "../assets/simbolo.png.asset.json";
-import heroAsset from "../assets/vinerium-hero.jpg.asset.json";
+import heroImg from "../assets/vinerium-hero-wide.jpg";
 import cellarAsset from "../assets/vinerium-cellar.jpg.asset.json";
 import duoAsset from "../assets/vinerium-bottle-duo.png.asset.json";
 import handsAsset from "../assets/vinerium-hands.png.asset.json";
