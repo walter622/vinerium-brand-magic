@@ -205,7 +205,7 @@ function Index() {
           <img
             src={heroImg}
             alt="Adega Vinerium"
-            className="absolute inset-0 h-full w-full object-cover object-[70%_center] sm:object-center"
+            className="absolute inset-0 h-full w-full object-cover object-[80%_center] sm:object-center"
             loading="eager"
             decoding="async"
           />
