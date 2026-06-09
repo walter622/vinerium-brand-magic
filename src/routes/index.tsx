@@ -529,7 +529,7 @@ function Index() {
           </div>
         </div>
         <div className="border-t border-white/10">
-          <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-3 px-5 py-6 pb-24 text-xs text-white/60 sm:flex-row sm:items-center sm:px-8 sm:pb-6">
+          <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-3 px-5 py-6 pb-32 text-xs text-white/60 sm:flex-row sm:items-center sm:px-8 sm:pb-6">
             <p>Vinerium © 2026 — Distribuição e Curadoria de Rótulos Finos</p>
             <p>Venda proibida para menores de 18 anos. Consuma com responsabilidade.</p>
           </div>
@@ -542,7 +542,7 @@ function Index() {
         target="_blank"
         rel="noreferrer"
         aria-label="Falar no WhatsApp"
-        className="fixed bottom-5 right-5 z-50 inline-flex min-h-14 items-center justify-center rounded-full bg-primary px-6 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground shadow-2xl shadow-black/30 transition-transform hover:-translate-y-0.5 sm:hidden"
+        className="fixed bottom-[calc(1.5rem+env(safe-area-inset-bottom))] right-5 z-50 inline-flex min-h-14 items-center justify-center rounded-full bg-primary px-6 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground shadow-2xl shadow-black/30 transition-transform hover:-translate-y-0.5 sm:hidden"
       >
         WhatsApp
       </a>
