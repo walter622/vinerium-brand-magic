@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import logoAsset from "../assets/vinerium.png.asset.json";
 import symbolAsset from "../assets/simbolo.png.asset.json";
-import heroAsset from "../assets/vinerium-hero.jpg.asset.json";
+import heroImg from "../assets/vinerium-hero-wide.jpg";
 import cellarAsset from "../assets/vinerium-cellar.jpg.asset.json";
 import duoAsset from "../assets/vinerium-bottle-duo.png.asset.json";
 import handsAsset from "../assets/vinerium-hands.png.asset.json";
@@ -148,10 +148,10 @@ export const Route = createFileRoute("/")({
           "Curadoria autoral, preço de distribuidor e entrega para todo o Brasil. Fale com a equipe da Vinerium pelo WhatsApp.",
       },
       { property: "og:url", content: "/" },
-      { property: "og:image", content: heroAsset.url },
+      { property: "og:image", content: heroImg },
       { name: "twitter:title", content: "Vinerium | Rótulos importados a preço de distribuidor" },
       { name: "twitter:description", content: "Curadoria fina, preço de distribuidor e atendimento direto pelo WhatsApp." },
-      { name: "twitter:image", content: heroAsset.url },
+      { name: "twitter:image", content: heroImg },
     ],
     links: [{ rel: "canonical", href: "/" }],
     scripts: [
@@ -203,9 +203,9 @@ function Index() {
       <section id="top" className="relative isolate overflow-hidden">
         <div className="relative min-h-[460px] w-full h-[78svh] lg:h-[88svh]">
           <img
-            src={heroAsset.url}
+            src={heroImg}
             alt="Adega Vinerium"
-            className="absolute inset-0 h-full w-full object-cover object-[70%_center] sm:object-center"
+            className="absolute inset-0 h-full w-full object-cover object-[80%_center] sm:object-center"
             loading="eager"
             decoding="async"
           />
