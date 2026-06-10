@@ -506,28 +506,26 @@ function Index() {
       {/* BLOCO 8 — CATEGORIAS */}
       <section id="categorias" className="bg-background py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:items-start">
-            <div className="lg:sticky lg:top-28">
-              <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-                Escolha rótulos de acordo com o seu objetivo de compra
-              </h2>
-              <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Combinamos diferentes categorias para atender pedidos pontuais, recorrentes, corporativos ou
-                seleções especiais.
-              </p>
-              <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
-                <img src={comboHomeImg} alt="Combo Vinerium" className="w-full" />
-                <img src={comboBusinessImg} alt="Combo corporativo Vinerium" className="w-full" />
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
+              Escolha rótulos de acordo com o seu objetivo de compra
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
+              Combinamos diferentes categorias para atender pedidos pontuais, recorrentes, corporativos ou
+              seleções especiais.
+            </p>
+          </div>
+          <div className="mt-12 grid gap-5 sm:mt-14 sm:grid-cols-2 lg:grid-cols-3">
+            {categories.map((c) => (
+              <div key={c.title} className="flex flex-col gap-3 border-t-2 border-primary bg-card p-7">
+                <p className="font-display text-xl leading-tight text-foreground">{c.title}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground">{c.text}</p>
               </div>
-            </div>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {categories.map((c) => (
-                <div key={c.title} className="flex flex-col gap-3 border-t-2 border-primary bg-card p-6">
-                  <p className="font-display text-lg leading-tight text-foreground">{c.title}</p>
-                  <p className="text-sm leading-relaxed text-muted-foreground">{c.text}</p>
-                </div>
-              ))}
-            </div>
+            ))}
+          </div>
+          <div className="mt-12 grid gap-6 sm:mt-16 sm:grid-cols-2">
+            <img src={comboHomeImg} alt="Combo Vinerium" className="w-full object-contain" />
+            <img src={comboBusinessImg} alt="Combo corporativo Vinerium" className="w-full object-contain" />
           </div>
         </div>
       </section>
