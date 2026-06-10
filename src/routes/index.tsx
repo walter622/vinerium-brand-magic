@@ -508,7 +508,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Escolha rótulos de acordo com o seu objetivo de compra
+              Escolha rótulos de acordo com o <em className="not-italic text-primary">seu objetivo de compra</em>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               Combinamos diferentes categorias para atender pedidos pontuais, recorrentes, corporativos ou
