@@ -617,7 +617,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Vinhos originais, compra formalizada e suporte direto
+              <em className="not-italic text-primary">Vinhos originais</em>, compra formalizada e <em className="not-italic text-primary">suporte direto</em>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               Quem compra vinho em volume precisa de mais do que boas ofertas. Precisa de procedência, segurança e
