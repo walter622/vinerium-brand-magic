@@ -412,7 +412,7 @@ function Index() {
           </div>
           <div>
             <h2 className="font-display text-3xl leading-tight sm:text-5xl">
-              O mercado está cheio de vinhos genéricos. A sua seleção não precisa ser mais do mesmo
+              O mercado está cheio de <em className="italic">vinhos genéricos</em>. A sua seleção <em className="not-italic text-[color:var(--color-brand-rose-soft)]">não precisa ser mais do mesmo</em>
             </h2>
             <p className="mt-6 text-base leading-relaxed text-white/85 sm:text-lg">
               Muitos compradores acabam presos aos mesmos rótulos encontrados em supermercados, grandes redes ou
