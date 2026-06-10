@@ -506,28 +506,26 @@ function Index() {
       {/* BLOCO 8 — CATEGORIAS */}
       <section id="categorias" className="bg-background py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:items-start">
-            <div className="lg:sticky lg:top-28">
-              <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-                Escolha rótulos de acordo com o seu objetivo de compra
-              </h2>
-              <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Combinamos diferentes categorias para atender pedidos pontuais, recorrentes, corporativos ou
-                seleções especiais.
-              </p>
-              <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
-                <img src={comboHomeImg} alt="Combo Vinerium" className="w-full" />
-                <img src={comboBusinessImg} alt="Combo corporativo Vinerium" className="w-full" />
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
+              Escolha rótulos de acordo com o seu objetivo de compra
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
+              Combinamos diferentes categorias para atender pedidos pontuais, recorrentes, corporativos ou
+              seleções especiais.
+            </p>
+          </div>
+          <div className="mt-12 grid gap-5 sm:mt-14 sm:grid-cols-2 lg:grid-cols-3">
+            {categories.map((c) => (
+              <div key={c.title} className="flex flex-col gap-3 border-t-2 border-primary bg-card p-7">
+                <p className="font-display text-xl leading-tight text-foreground">{c.title}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground">{c.text}</p>
               </div>
-            </div>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {categories.map((c) => (
-                <div key={c.title} className="flex flex-col gap-3 border-t-2 border-primary bg-card p-6">
-                  <p className="font-display text-lg leading-tight text-foreground">{c.title}</p>
-                  <p className="text-sm leading-relaxed text-muted-foreground">{c.text}</p>
-                </div>
-              ))}
-            </div>
+            ))}
+          </div>
+          <div className="mt-12 grid gap-6 sm:mt-16 sm:grid-cols-2">
+            <img src={comboHomeImg} alt="Combo Vinerium" className="w-full object-contain" />
+            <img src={comboBusinessImg} alt="Combo corporativo Vinerium" className="w-full object-contain" />
           </div>
         </div>
       </section>
@@ -535,20 +533,10 @@ function Index() {
       {/* BLOCO 9 — COMO FUNCIONA */}
       <section id="como-funciona" className="bg-secondary py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
-          <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
-            <div className="max-w-2xl">
-              <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-                Do atendimento no WhatsApp ao envio do pedido
-              </h2>
-            </div>
-            <a
-              href={ctaTalkLink}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
-            >
-              Falar com a Vinerium no WhatsApp
-            </a>
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
+              Do atendimento no WhatsApp ao envio do pedido
+            </h2>
           </div>
           <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {steps.map((s) => (
@@ -559,6 +547,16 @@ function Index() {
               </li>
             ))}
           </ol>
+          <div className="mt-12 flex justify-center sm:mt-16">
+            <a
+              href={ctaTalkLink}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex min-h-12 items-center justify-center rounded-none bg-primary px-8 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+            >
+              Falar com a Vinerium no WhatsApp
+            </a>
+          </div>
         </div>
       </section>
 
