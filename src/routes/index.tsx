@@ -644,7 +644,7 @@ function Index() {
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-white/70">Confraria Vinerium</p>
             <h2 className="mt-3 font-display text-3xl leading-tight sm:text-5xl">
-              Acesso antecipado a condições, rótulos e seleções especiais
+              <em className="not-italic text-[color:var(--color-brand-rose-soft)]">Acesso antecipado</em> a condições, rótulos e seleções especiais
             </h2>
             <p className="mt-6 text-base leading-relaxed text-white/85 sm:text-lg">
               Além da compra pontual, a Vinerium está estruturando um modelo de relacionamento para compradores
