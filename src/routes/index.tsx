@@ -489,7 +489,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Por que comprar vinhos importados com a Vinerium
+              Por que comprar vinhos importados com a <em className="not-italic italic text-primary">Vinerium</em>
             </h2>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
