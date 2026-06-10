@@ -535,7 +535,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Do atendimento no WhatsApp ao envio do pedido
+              Do <em className="not-italic text-primary">atendimento no WhatsApp</em> ao <em className="not-italic text-primary">envio do pedido</em>
             </h2>
           </div>
           <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
