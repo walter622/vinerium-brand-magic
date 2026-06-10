@@ -267,7 +267,7 @@ function Index() {
           <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 py-12 sm:px-8">
             <div className="max-w-2xl text-white">
               <h1 className="font-display text-[2.25rem] leading-[1.05] sm:text-6xl lg:text-7xl">
-                Vinhos importados de pequenas produções com preço de atacado para quem compra em volume
+                Vinhos importados de <em className="not-italic text-[color:var(--color-brand-rose-soft)]">pequenas produções</em> com <em className="not-italic italic">preço de atacado</em> para quem compra em <em className="not-italic text-[color:var(--color-brand-rose-soft)]">volume</em>
               </h1>
               <p className="mt-5 max-w-xl text-sm leading-6 text-white/85 sm:mt-6 sm:text-lg sm:leading-7">
                 A Vinerium conecta restaurantes, empórios, adegas, hotéis, bares, compradores corporativos,
