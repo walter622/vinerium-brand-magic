@@ -303,7 +303,7 @@ function Index() {
               Assista antes de decidir
             </p>
             <h2 className="mt-3 font-display text-3xl leading-tight text-white sm:text-5xl">
-              Assista ao vídeo e entenda como comprar vinhos importados com curadoria, procedência e preço de atacado
+              Assista ao vídeo e entenda como comprar vinhos importados com <em className="not-italic text-[color:var(--color-brand-rose-soft)]">curadoria, procedência e preço de atacado</em>
             </h2>
           </div>
 
