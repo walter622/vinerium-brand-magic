@@ -459,7 +459,7 @@ function Index() {
           </div>
           <div>
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Curadoria de vinhos importados para quem busca procedência, diferenciação e preço de atacado
+              Curadoria de vinhos importados para quem busca <em className="not-italic text-primary">procedência, diferenciação e preço de atacado</em>
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
               A Vinerium atua como uma parceira comercial para quem deseja comprar vinhos importados de forma mais
