@@ -533,20 +533,10 @@ function Index() {
       {/* BLOCO 9 — COMO FUNCIONA */}
       <section id="como-funciona" className="bg-secondary py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
-          <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
-            <div className="max-w-2xl">
-              <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-                Do atendimento no WhatsApp ao envio do pedido
-              </h2>
-            </div>
-            <a
-              href={ctaTalkLink}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex min-h-12 w-full items-center justify-center rounded-none bg-primary px-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)] sm:w-auto sm:px-8 sm:text-xs sm:tracking-[0.22em]"
-            >
-              Falar com a Vinerium no WhatsApp
-            </a>
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
+              Do atendimento no WhatsApp ao envio do pedido
+            </h2>
           </div>
           <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {steps.map((s) => (
@@ -557,6 +547,16 @@ function Index() {
               </li>
             ))}
           </ol>
+          <div className="mt-12 flex justify-center sm:mt-16">
+            <a
+              href={ctaTalkLink}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex min-h-12 items-center justify-center rounded-none bg-primary px-8 text-xs font-semibold uppercase tracking-[0.22em] text-primary-foreground transition-colors hover:bg-[color:var(--color-brand-wine-strong)]"
+            >
+              Falar com a Vinerium no WhatsApp
+            </a>
+          </div>
         </div>
       </section>
 
