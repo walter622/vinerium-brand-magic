@@ -376,7 +376,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Uma solução para quem precisa comprar vinhos melhores, em volume, com segurança e preço de atacado
+              Uma solução para quem precisa comprar <em className="not-italic text-primary">vinhos melhores</em>, em volume, com <em className="italic">segurança</em> e <em className="not-italic text-primary">preço de atacado</em>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               A Vinerium atende quem busca um fornecedor confiável, com curadoria pronta e rótulos capazes de elevar
