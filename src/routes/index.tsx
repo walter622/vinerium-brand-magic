@@ -267,7 +267,7 @@ function Index() {
           <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-5 py-12 sm:px-8">
             <div className="max-w-2xl text-white">
               <h1 className="font-display text-[2.25rem] leading-[1.05] sm:text-6xl lg:text-7xl">
-                Vinhos importados de pequenas produções com preço de atacado para quem compra em volume
+                Vinhos importados de <em className="not-italic text-[color:var(--color-brand-rose-soft)]">pequenas produções</em> com <em className="not-italic italic">preço de atacado</em> para quem compra em <em className="not-italic text-[color:var(--color-brand-rose-soft)]">volume</em>
               </h1>
               <p className="mt-5 max-w-xl text-sm leading-6 text-white/85 sm:mt-6 sm:text-lg sm:leading-7">
                 A Vinerium conecta restaurantes, empórios, adegas, hotéis, bares, compradores corporativos,
@@ -303,7 +303,7 @@ function Index() {
               Assista antes de decidir
             </p>
             <h2 className="mt-3 font-display text-3xl leading-tight text-white sm:text-5xl">
-              Assista ao vídeo e entenda como comprar vinhos importados com curadoria, procedência e preço de atacado
+              Assista ao vídeo e entenda como comprar vinhos importados com <em className="not-italic text-[color:var(--color-brand-rose-soft)]">curadoria, procedência e preço de atacado</em>
             </h2>
           </div>
 
@@ -342,7 +342,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Uma forma mais segura e inteligente de comprar vinhos importados em volume
+              Uma forma mais <em className="not-italic text-primary">segura e inteligente</em> de comprar vinhos importados <em className="italic">em volume</em>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               Aqui, você não compra apenas garrafas. Você acessa rótulos originais, importados de forma oficial, com
@@ -376,7 +376,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Uma solução para quem precisa comprar vinhos melhores, em volume, com segurança e preço de atacado
+              Uma solução para quem precisa comprar <em className="not-italic text-primary">vinhos melhores</em>, em volume, com <em className="italic">segurança</em> e <em className="not-italic text-primary">preço de atacado</em>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               A Vinerium atende quem busca um fornecedor confiável, com curadoria pronta e rótulos capazes de elevar
@@ -412,7 +412,7 @@ function Index() {
           </div>
           <div>
             <h2 className="font-display text-3xl leading-tight sm:text-5xl">
-              O mercado está cheio de vinhos genéricos. A sua seleção não precisa ser mais do mesmo
+              O mercado está cheio de <em className="italic">vinhos genéricos</em>. A sua seleção <em className="not-italic text-[color:var(--color-brand-rose-soft)]">não precisa ser mais do mesmo</em>
             </h2>
             <p className="mt-6 text-base leading-relaxed text-white/85 sm:text-lg">
               Muitos compradores acabam presos aos mesmos rótulos encontrados em supermercados, grandes redes ou
@@ -459,7 +459,7 @@ function Index() {
           </div>
           <div>
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Curadoria de vinhos importados para quem busca procedência, diferenciação e preço de atacado
+              Curadoria de vinhos importados para quem busca <em className="not-italic text-primary">procedência, diferenciação e preço de atacado</em>
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
               A Vinerium atua como uma parceira comercial para quem deseja comprar vinhos importados de forma mais
@@ -489,7 +489,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Por que comprar vinhos importados com a Vinerium
+              Por que comprar vinhos importados com a <em className="not-italic italic text-primary">Vinerium</em>
             </h2>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -508,7 +508,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Escolha rótulos de acordo com o seu objetivo de compra
+              Escolha rótulos de acordo com o <em className="not-italic text-primary">seu objetivo de compra</em>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               Combinamos diferentes categorias para atender pedidos pontuais, recorrentes, corporativos ou
@@ -535,7 +535,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Do atendimento no WhatsApp ao envio do pedido
+              Do <em className="not-italic text-primary">atendimento no WhatsApp</em> ao <em className="not-italic text-primary">envio do pedido</em>
             </h2>
           </div>
           <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -565,7 +565,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Vinerium x fornecedores genéricos x grandes redes
+              <em className="not-italic italic text-primary">Vinerium</em> x fornecedores genéricos x grandes redes
             </h2>
           </div>
           <div className="mt-12 overflow-x-auto border border-border">
@@ -598,7 +598,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Como os rótulos da Vinerium podem ser utilizados
+              Como os rótulos da <em className="not-italic italic text-primary">Vinerium</em> podem ser utilizados
             </h2>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -617,7 +617,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Vinhos originais, compra formalizada e suporte direto
+              <em className="not-italic text-primary">Vinhos originais</em>, compra formalizada e <em className="not-italic text-primary">suporte direto</em>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               Quem compra vinho em volume precisa de mais do que boas ofertas. Precisa de procedência, segurança e
@@ -644,7 +644,7 @@ function Index() {
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-white/70">Confraria Vinerium</p>
             <h2 className="mt-3 font-display text-3xl leading-tight sm:text-5xl">
-              Acesso antecipado a condições, rótulos e seleções especiais
+              <em className="not-italic text-[color:var(--color-brand-rose-soft)]">Acesso antecipado</em> a condições, rótulos e seleções especiais
             </h2>
             <p className="mt-6 text-base leading-relaxed text-white/85 sm:text-lg">
               Além da compra pontual, a Vinerium está estruturando um modelo de relacionamento para compradores
@@ -672,7 +672,7 @@ function Index() {
         <div className="relative mx-auto flex max-w-5xl flex-col items-center px-5 py-24 text-center sm:px-8">
           <img src={symbolAsset.url} alt="" aria-hidden className="h-12 w-auto opacity-90" />
           <h2 className="mt-6 font-display text-3xl leading-tight sm:text-6xl">
-            Pronto para acessar vinhos importados com preço de atacado e curadoria premium?
+            Pronto para acessar vinhos importados com <em className="not-italic text-[color:var(--color-brand-rose-soft)]">preço de atacado</em> e <em className="not-italic text-[color:var(--color-brand-rose-soft)]">curadoria premium</em>?
           </h2>
           <p className="mt-5 max-w-3xl text-base leading-relaxed text-white/80 sm:text-lg">
             Fale com a equipe da Vinerium e solicite uma seleção de rótulos, combos, caixas ou condições comerciais
