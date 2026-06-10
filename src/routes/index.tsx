@@ -342,7 +342,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl leading-tight text-foreground sm:text-5xl">
-              Uma forma mais segura e inteligente de comprar vinhos importados em volume
+              Uma forma mais <em className="not-italic text-primary">segura e inteligente</em> de comprar vinhos importados <em className="italic">em volume</em>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               Aqui, você não compra apenas garrafas. Você acessa rótulos originais, importados de forma oficial, com
