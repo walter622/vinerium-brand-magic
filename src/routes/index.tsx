@@ -299,11 +299,8 @@ function Index() {
       <section className="bg-[color:var(--color-brand-night)] py-14 sm:py-24">
         <div className="mx-auto max-w-5xl px-5 sm:px-8">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[color:var(--color-brand-rose-soft)]">
-              Assista antes de decidir
-            </p>
-            <h2 className="mt-3 font-display text-3xl leading-tight text-white sm:text-5xl">
-              Assista ao vídeo e entenda como comprar vinhos importados com <em className="not-italic font-bold text-white">curadoria, procedência e preço de atacado</em>
+            <h2 className="font-display text-3xl leading-tight text-white sm:text-5xl">
+              Assista ao vídeo e entenda como comprar vinhos importados com <em className="not-italic font-bold text-[color:var(--color-brand-sunset)]">curadoria, procedência e preço de atacado</em>
             </h2>
           </div>
 
