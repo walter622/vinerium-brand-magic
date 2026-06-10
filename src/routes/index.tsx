@@ -672,7 +672,7 @@ function Index() {
         <div className="relative mx-auto flex max-w-5xl flex-col items-center px-5 py-24 text-center sm:px-8">
           <img src={symbolAsset.url} alt="" aria-hidden className="h-12 w-auto opacity-90" />
           <h2 className="mt-6 font-display text-3xl leading-tight sm:text-6xl">
-            Pronto para acessar vinhos importados com preço de atacado e curadoria premium?
+            Pronto para acessar vinhos importados com <em className="not-italic text-[color:var(--color-brand-rose-soft)]">preço de atacado</em> e <em className="not-italic text-[color:var(--color-brand-rose-soft)]">curadoria premium</em>?
           </h2>
           <p className="mt-5 max-w-3xl text-base leading-relaxed text-white/80 sm:text-lg">
             Fale com a equipe da Vinerium e solicite uma seleção de rótulos, combos, caixas ou condições comerciais
